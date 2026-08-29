@@ -1,0 +1,24 @@
+Modelo,Clase real,Clase predicha,Errores,Total clase real,Proporción sobre clase real,Proporción sobre clase real (%)
+CNN,Tomato___Early_blight,Tomato___Late_blight,18,150,0.12,12.0
+CNN,Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato___Bacterial_spot,5,803,0.0062266500622665,0.62266500622665
+CNN,Tomato___Late_blight,Tomato___Early_blight,3,285,0.010526315789473684,1.0526315789473684
+CNN,Tomato___Bacterial_spot,Tomato___Tomato_Yellow_Leaf_Curl_Virus,3,319,0.009404388714733543,0.9404388714733543
+CNN,Tomato___Tomato_mosaic_virus,Tomato___Septoria_leaf_spot,2,56,0.03571428571428571,3.571428571428571
+CNN,Tomato___Leaf_Mold,Tomato___Late_blight,2,143,0.013986013986013986,1.3986013986013985
+CNN,Tomato___Target_Spot,Tomato___Spider_mites Two-spotted_spider_mite,2,211,0.009478672985781991,0.9478672985781991
+CNN,Tomato___Target_Spot,Tomato___healthy,2,211,0.009478672985781991,0.9478672985781991
+CNN,Tomato___Spider_mites Two-spotted_spider_mite,Tomato___Target_Spot,2,251,0.00796812749003984,0.796812749003984
+CNN,Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato___Spider_mites Two-spotted_spider_mite,2,803,0.0024906600249066002,0.24906600249066002
+CNN,Tomato___Early_blight,Tomato___Bacterial_spot,1,150,0.006666666666666667,0.6666666666666667
+CNN,Tomato___Early_blight,Tomato___Septoria_leaf_spot,1,150,0.006666666666666667,0.6666666666666667
+CNN,Tomato___Early_blight,Tomato___Target_Spot,1,150,0.006666666666666667,0.6666666666666667
+CNN,Tomato___Early_blight,Tomato___Tomato_mosaic_virus,1,150,0.006666666666666667,0.6666666666666667
+CNN,Tomato___Target_Spot,Tomato___Tomato_mosaic_virus,1,211,0.004739336492890996,0.47393364928909953
+CNN,Tomato___Spider_mites Two-spotted_spider_mite,Tomato___Tomato_mosaic_virus,1,251,0.00398406374501992,0.398406374501992
+CNN,Tomato___Septoria_leaf_spot,Tomato___Bacterial_spot,1,266,0.0037593984962406013,0.37593984962406013
+CNN,Tomato___Septoria_leaf_spot,Tomato___Late_blight,1,266,0.0037593984962406013,0.37593984962406013
+CNN,Tomato___Septoria_leaf_spot,Tomato___Leaf_Mold,1,266,0.0037593984962406013,0.37593984962406013
+CNN,Tomato___Late_blight,Tomato___Septoria_leaf_spot,1,285,0.0035087719298245615,0.3508771929824561
+CNN,Tomato___Late_blight,Tomato___healthy,1,285,0.0035087719298245615,0.3508771929824561
+CNN,Tomato___Bacterial_spot,Tomato___Late_blight,1,319,0.003134796238244514,0.3134796238244514
+CNN,Tomato___Bacterial_spot,Tomato___Target_Spot,1,319,0.003134796238244514,0.3134796238244514

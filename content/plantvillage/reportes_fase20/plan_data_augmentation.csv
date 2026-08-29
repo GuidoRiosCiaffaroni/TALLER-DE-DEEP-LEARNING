@@ -1,0 +1,8 @@
+Transformación,Estado actual,Propuesta futura,Riesgo,Control necesario
+RandomFlip,Utilizada,Mantener,Bajo,Verificar orientación plausible
+RandomRotation,Utilizada,Revisar intensidad,Medio,No ocultar lesiones
+RandomZoom,Utilizada,Revisar intensidad,Medio,No eliminar regiones relevantes
+RandomTranslation,No utilizada,Evaluar,Medio,Evitar desplazar toda la hoja
+RandomContrast,No utilizada,Evaluar,Medio,Preservar síntomas cromáticos
+RandomBrightness,No utilizada,Evaluar,Medio-Alto,No alterar el color diagnóstico
+Ruido gaussiano leve,No utilizado,Evaluar,Medio-Alto,No ocultar texturas finas

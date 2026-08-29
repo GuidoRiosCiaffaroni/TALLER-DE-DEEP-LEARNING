@@ -1,0 +1,10 @@
+Indicador,Resultado
+Modelo seleccionado,CNN
+Victorias MLP,0
+Victorias CNN,3
+Diferencia Accuracy CNN - MLP,0.6734019103600295
+Diferencia Balanced Accuracy CNN - MLP,0.8602490111762893
+Diferencia F1 Macro CNN - MLP,0.9068909264767191
+Reducción relativa del error,0.9713831478537361
+Errores MLP resueltos por CNN,1840
+Porcentaje de errores MLP resueltos por CNN,0.9750927397986221

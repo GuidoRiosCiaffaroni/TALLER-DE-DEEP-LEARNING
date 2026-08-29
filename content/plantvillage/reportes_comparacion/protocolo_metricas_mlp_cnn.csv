@@ -1,0 +1,9 @@
+Métrica,Función,Uso
+Loss,SparseCategoricalCrossentropy,Selección por val_loss
+Accuracy,accuracy_score,Rendimiento global
+Balanced Accuracy,balanced_accuracy_score,Rendimiento balanceado
+Precision Macro,precision_score(average='macro'),Promedio igual de precision
+Recall Macro,recall_score(average='macro'),Promedio igual de recall
+F1 Macro,f1_score(average='macro'),Métrica principal
+F1 Weighted,f1_score(average='weighted'),Rendimiento ponderado
+Tiempo de inferencia (s),time.perf_counter,Eficiencia de inferencia

@@ -1,0 +1,22 @@
+{
+    "seed": 42,
+    "input_shape": "(128, 128, 3)",
+    "batch_size": 32,
+    "num_classes": 10,
+    "train_images": 12702,
+    "validation_images": 2722,
+    "test_images": 2722,
+    "total_images": 18146,
+    "train_dataset_common": true,
+    "validation_dataset_common": true,
+    "test_dataset_common": true,
+    "augmentation_train": true,
+    "augmentation_validation": false,
+    "augmentation_test": false,
+    "test_reserved": true,
+    "manifest_fingerprints": {
+        "Train": "b216b4c4207a097e791c427442790cb56bb73f5af7a23b0bf4dd22b548773221",
+        "Validation": "de7c3e54c4bbb9621f71e1874fe2df3b924faa6ac803b4fcdcd0ac82b7596ab0",
+        "Test": "bf2492a3e734d38228ba2468f66f40bd73e67228fb30bea695f983dba2a2381a"
+    }
+}

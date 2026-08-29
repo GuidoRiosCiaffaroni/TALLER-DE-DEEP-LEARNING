@@ -1,0 +1,9 @@
+Métrica / criterio,MLP,CNN seleccionada (CNN A)
+Accuracy,0.3042,0.8648
+Balanced Accuracy,0.1088,0.8164
+Precision Macro,0.1298,0.8583
+Recall Macro,0.1088,0.8164
+F1 Macro,0.062,0.8235
+Número de parámetros,6300490.0,424042.0
+Tiempo de entrenamiento,605.17,232.68
+Mejor época según val_loss,3.0,7.0

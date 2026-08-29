@@ -1,0 +1,32 @@
+{
+    "numero_clases": 10,
+    "orden_clases": [
+        "Tomato___Bacterial_spot",
+        "Tomato___Early_blight",
+        "Tomato___Late_blight",
+        "Tomato___Leaf_Mold",
+        "Tomato___Septoria_leaf_spot",
+        "Tomato___Spider_mites Two-spotted_spider_mite",
+        "Tomato___Target_Spot",
+        "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "Tomato___Tomato_mosaic_virus",
+        "Tomato___healthy"
+    ],
+    "metrica_principal": "F1 Macro",
+    "monitor_checkpoint": "val_loss",
+    "average_principal": "macro",
+    "zero_division": 0,
+    "metricas": [
+        "Loss",
+        "Accuracy",
+        "Balanced Accuracy",
+        "Precision Macro",
+        "Recall Macro",
+        "F1 Macro",
+        "F1 Weighted",
+        "Tiempo de inferencia (s)"
+    ],
+    "validation_para_seleccion": true,
+    "test_reservado": true,
+    "seed": 42
+}

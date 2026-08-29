@@ -1,0 +1,8 @@
+ID,Extensión,Objetivo,Hipótesis futura,Métrica principal,Costo estimado,Prioridad,Estado,Requisito actual
+EXT-01,Validación externa,Medir generalización sobre imágenes reales fuera de PlantVillage,"El rendimiento externo será menor que el Test interno, pero permanecerá útil",F1 Macro externo,Alto,1,Trabajo futuro,No
+EXT-02,Grad-CAM,Comprobar qué regiones influyen en cada predicción,Las regiones destacadas coincidirán con manchas y lesiones,Inspección visual + coherencia,Bajo-Medio,2,Trabajo futuro,No
+EXT-03,Transfer Learning,Reutilizar representaciones visuales preentrenadas,El F1 Macro superará el 82.35% de CNN A,F1 Macro Validation,Medio,3,Trabajo futuro,No
+EXT-04,EfficientNet o ResNet,Comparar arquitecturas preentrenadas con la CNN A,Una red preentrenada mejorará las métricas balanceadas,Balanced Accuracy Validation,Medio-Alto,4,Trabajo futuro,No
+EXT-05,Data augmentation ampliado,Aumentar robustez frente a variaciones plausibles de captura,La brecha entre dominio interno y externo se reducirá,F1 Macro externo,Medio,5,Trabajo futuro,No
+EXT-06,Optimización de hiperparámetros,Seleccionar configuraciones mediante un protocolo sistemático,Una configuración seleccionada superará la validación de CNN A,F1 Macro Validation,Alto,6,Trabajo futuro,No
+EXT-07,Evaluación con múltiples semillas,Cuantificar variabilidad entre inicializaciones,La ventaja se mantendrá a través de varias semillas,Media y desviación de F1 Macro,Alto,7,Trabajo futuro,No

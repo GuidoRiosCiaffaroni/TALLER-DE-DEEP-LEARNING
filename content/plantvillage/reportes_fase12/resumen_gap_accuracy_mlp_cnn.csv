@@ -1,0 +1,3 @@
+Modelo,Épocas ejecutadas,Mejor época según val_loss,Train accuracy mejor época,Val accuracy mejor época,Gap mejor época,Gap mejor época (pp),Mayor gap observado,Mayor gap observado (pp),Época del mayor gap,Épocas con gap >= 10 pp,% épocas con alerta
+MLP,9,2,0.30199968814849854,0.30345335602760315,-0.0014536678791046143,-0.14536678791046143,0.0012492239475250244,0.12492239475250244,7,0,0.0
+CNN,9,2,0.826562762260437,0.6197648644447327,0.20679789781570435,20.679789781570435,0.6565763801336288,65.65763801336288,5,9,100.0

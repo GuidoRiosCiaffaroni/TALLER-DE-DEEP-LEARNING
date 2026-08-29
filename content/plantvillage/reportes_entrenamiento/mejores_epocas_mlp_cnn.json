@@ -1,0 +1,30 @@
+[
+    {
+        "Modelo": "MLP",
+        "Criterio de selección": "min(val_loss)",
+        "Épocas ejecutadas": 9,
+        "Mejor época según val_loss": 2,
+        "Train loss en mejor época": 2.098984479904175,
+        "Mejor val loss": 2.085099935531616,
+        "Train accuracy en mejor época": 0.30199968814849854,
+        "Val accuracy en mejor época": 0.30345335602760315,
+        "Mayor val accuracy observada": 0.30345335602760315,
+        "Época de mayor val accuracy": 2,
+        "Gap accuracy": -0.0014536678791046143,
+        "Gap loss": -0.013884544372558594
+    },
+    {
+        "Modelo": "CNN",
+        "Criterio de selección": "min(val_loss)",
+        "Épocas ejecutadas": 9,
+        "Mejor época según val_loss": 2,
+        "Train loss en mejor época": 0.49887028336524963,
+        "Mejor val loss": 1.7392481565475464,
+        "Train accuracy en mejor época": 0.826562762260437,
+        "Val accuracy en mejor época": 0.6197648644447327,
+        "Mayor val accuracy observada": 0.6197648644447327,
+        "Época de mayor val accuracy": 2,
+        "Gap accuracy": 0.20679789781570435,
+        "Gap loss": 1.2403778731822968
+    }
+]

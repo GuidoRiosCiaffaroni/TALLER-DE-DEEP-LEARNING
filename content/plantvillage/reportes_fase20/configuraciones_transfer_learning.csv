@@ -1,0 +1,6 @@
+Configuración,Pesos iniciales,Extractor entrenable,Learning rate inicial,Salida,Criterio de selección,Estado
+CNN A — referencia,Aleatorios,Sí,0.001,Softmax — 10 clases,Mínimo val_loss,Ejecutada
+EfficientNetB0 congelada,Preentrenados,No,0.001,Softmax — 10 clases,Mínimo val_loss,Propuesta futura
+EfficientNetB0 fine-tuning,Preentrenados,Capas superiores,1e-05,Softmax — 10 clases,Mínimo val_loss,Propuesta futura
+ResNet50 congelada,Preentrenados,No,0.001,Softmax — 10 clases,Mínimo val_loss,Propuesta futura
+ResNet50 fine-tuning,Preentrenados,Capas superiores,1e-05,Softmax — 10 clases,Mínimo val_loss,Propuesta futura

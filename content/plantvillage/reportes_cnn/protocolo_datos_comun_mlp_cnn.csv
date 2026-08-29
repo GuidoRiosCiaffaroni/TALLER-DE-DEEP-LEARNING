@@ -1,0 +1,15 @@
+Componente,MLP,CNN,Coincide
+Partición Train,train_ds_final,train_ds_final,True
+Partición Validation,val_ds_final,val_ds_final,True
+Partición Test,test_ds_final,test_ds_final,True
+Resolución,128 × 128,128 × 128,True
+Canales,RGB,RGB,True
+Normalización,"[0, 1]","[0, 1]",True
+Batch size,32,32,True
+Número de clases,10,10,True
+Orden de clases,class_names,class_names,True
+Data augmentation Train,Sí,Sí,True
+Data augmentation Validation,No,No,True
+Data augmentation Test,No,No,True
+Semilla,42,42,True
+Uso de Test,Solo evaluación final,Solo evaluación final,True

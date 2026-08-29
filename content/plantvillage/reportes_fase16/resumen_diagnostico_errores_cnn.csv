@@ -1,0 +1,6 @@
+Diagnóstico,N,Porcentaje
+Error razonable: ambigüedad visual entre clases,30,55.55555555555556
+Error no concluyente,11,20.37037037037037
+Error razonable: baja separación probabilística,7,12.962962962962962
+Posible debilidad CNN (error de alta confianza),3,5.555555555555555
+Error razonable: condición visual atípica,3,5.555555555555555

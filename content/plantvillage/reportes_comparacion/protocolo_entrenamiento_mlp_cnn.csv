@@ -1,0 +1,25 @@
+Componente,MLP,CNN,Coincide
+Dataset Train,train_ds_final,train_ds_final,True
+Dataset Validation,val_ds_final,val_ds_final,True
+Dataset Test,test_ds_final,test_ds_final,True
+Imágenes Train,12702,12702,True
+Imágenes Validation,2722,2722,True
+Batch size,32,32,True
+Pasos por época,397,397,True
+Épocas máximas,50,50,True
+Optimizador,Adam,Adam,True
+Learning rate,0.001,0.001,True
+Beta 1,0.9,0.9,True
+Beta 2,0.999,0.999,True
+Epsilon,1e-07,1e-07,True
+Pérdida,SparseCategoricalCrossentropy,SparseCategoricalCrossentropy,True
+Monitor,val_loss,val_loss,True
+Modo del monitor,min,min,True
+Paciencia,7,7,True
+Min delta,0.0001,0.0001,True
+Restaurar mejores pesos,True,True,True
+Guardar mejor checkpoint,True,True,True
+Semilla,42,42,True
+Métrica durante fit,Accuracy,Accuracy,True
+Métrica principal posterior,F1 Macro,F1 Macro,True
+Uso de Test,Solo evaluación final,Solo evaluación final,True

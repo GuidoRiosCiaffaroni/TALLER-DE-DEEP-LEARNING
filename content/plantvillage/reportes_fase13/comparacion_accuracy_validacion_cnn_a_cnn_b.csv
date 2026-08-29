@@ -1,0 +1,3 @@
+Configuración,Mejor época según val_loss,Val Accuracy checkpoint,Mayor Val Accuracy,Época mayor Val Accuracy,Val Loss checkpoint,Train Accuracy checkpoint
+CNN A,24,0.977590024471283,0.977590024471283,24,0.09077873080968857,0.9784286022186279
+CNN B,2,0.6197648644447327,0.6197648644447327,2,1.7392481565475464,0.826562762260437

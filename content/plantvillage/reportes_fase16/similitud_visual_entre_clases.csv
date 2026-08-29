@@ -1,0 +1,46 @@
+Clase A,Clase B,Misma planta,Distancia visual,Similitud visual,Par_key,Score confusión MLP (%),Errores MLP,Score confusión CNN (%),Errores CNN
+Tomato___Spider_mites Two-spotted_spider_mite,Tomato___Target_Spot,True,1.2386481030840049,0.44669816512134297,Tomato___Spider_mites Two-spotted_spider_mite || Tomato___Target_Spot,0.0,0,0.8723400237910915,4
+Tomato___Early_blight,Tomato___Late_blight,True,1.7944600768016887,0.3578508808558534,Tomato___Early_blight || Tomato___Late_blight,0.0,0,6.526315789473684,21
+Tomato___Tomato_mosaic_virus,Tomato___healthy,True,1.9766566047173373,0.33594738419447606,Tomato___Tomato_mosaic_virus || Tomato___healthy,0.0,0,0.0,0
+Tomato___Leaf_Mold,Tomato___Tomato_mosaic_virus,True,1.9997676429129445,0.33335915278722833,Tomato___Leaf_Mold || Tomato___Tomato_mosaic_virus,0.0,0,0.0,0
+Tomato___Late_blight,Tomato___Leaf_Mold,True,2.1532088018510653,0.31713726011831445,Tomato___Late_blight || Tomato___Leaf_Mold,0.0,0,0.6993006993006993,2
+Tomato___Late_blight,Tomato___Spider_mites Two-spotted_spider_mite,True,2.372135672401843,0.29654797349471357,Tomato___Late_blight || Tomato___Spider_mites Two-spotted_spider_mite,0.0,0,0.0,0
+Tomato___Spider_mites Two-spotted_spider_mite,Tomato___Tomato_mosaic_virus,True,2.542052901956344,0.28232215262727467,Tomato___Spider_mites Two-spotted_spider_mite || Tomato___Tomato_mosaic_virus,0.0,0,0.199203187250996,1
+Tomato___Target_Spot,Tomato___healthy,True,2.6587542748831834,0.27331707047528575,Tomato___Target_Spot || Tomato___healthy,0.0,0,0.47393364928909953,2
+Tomato___Bacterial_spot,Tomato___Late_blight,True,2.729689593488147,0.26811882730025316,Tomato___Bacterial_spot || Tomato___Late_blight,0.0,0,0.1567398119122257,1
+Tomato___Leaf_Mold,Tomato___Spider_mites Two-spotted_spider_mite,True,2.7613182848651925,0.2658642327674858,Tomato___Leaf_Mold || Tomato___Spider_mites Two-spotted_spider_mite,0.0,0,0.0,0
+Tomato___Spider_mites Two-spotted_spider_mite,Tomato___healthy,True,2.8628156674503518,0.2588785192175761,Tomato___Spider_mites Two-spotted_spider_mite || Tomato___healthy,0.0,0,0.0,0
+Tomato___Target_Spot,Tomato___Tomato_mosaic_virus,True,2.882845704267099,0.2575430692239556,Tomato___Target_Spot || Tomato___Tomato_mosaic_virus,0.0,0,0.23696682464454977,1
+Tomato___Early_blight,Tomato___Spider_mites Two-spotted_spider_mite,True,2.8934393006062176,0.25684232443133187,Tomato___Early_blight || Tomato___Spider_mites Two-spotted_spider_mite,0.0,0,0.0,0
+Tomato___Late_blight,Tomato___Tomato_mosaic_virus,True,2.995814724900452,0.2502618536761394,Tomato___Late_blight || Tomato___Tomato_mosaic_virus,0.0,0,0.0,0
+Tomato___Early_blight,Tomato___Leaf_Mold,True,3.031456566859506,0.2480493051123201,Tomato___Early_blight || Tomato___Leaf_Mold,0.0,0,0.0,0
+Tomato___Leaf_Mold,Tomato___healthy,True,3.1641125820297855,0.2401472055091634,Tomato___Leaf_Mold || Tomato___healthy,0.0,0,0.0,0
+Tomato___Bacterial_spot,Tomato___Leaf_Mold,True,3.2451353455343064,0.23556374970516678,Tomato___Bacterial_spot || Tomato___Leaf_Mold,0.0,0,0.0,0
+Tomato___Late_blight,Tomato___Target_Spot,True,3.2655464557357523,0.23443655118451004,Tomato___Late_blight || Tomato___Target_Spot,0.0,0,0.0,0
+Tomato___Leaf_Mold,Tomato___Tomato_Yellow_Leaf_Curl_Virus,True,3.3006641753946884,0.23252222429300148,Tomato___Leaf_Mold || Tomato___Tomato_Yellow_Leaf_Curl_Virus,50.0,143,0.0,0
+Tomato___Late_blight,Tomato___Tomato_Yellow_Leaf_Curl_Virus,True,3.365728500829084,0.2290568457956313,Tomato___Late_blight || Tomato___Tomato_Yellow_Leaf_Curl_Virus,44.3859649122807,253,0.0,0
+Tomato___Late_blight,Tomato___healthy,True,3.386784302705473,0.22795741276434933,Tomato___Late_blight || Tomato___healthy,0.0,0,0.17543859649122806,1
+Tomato___Leaf_Mold,Tomato___Target_Spot,True,3.463480329163068,0.22404041829562776,Tomato___Leaf_Mold || Tomato___Target_Spot,0.0,0,0.0,0
+Tomato___Bacterial_spot,Tomato___Early_blight,True,3.48532916477428,0.22294907759580765,Tomato___Bacterial_spot || Tomato___Early_blight,0.0,0,0.33333333333333337,1
+Tomato___Early_blight,Tomato___Target_Spot,True,3.5722051246946886,0.218712847024066,Tomato___Early_blight || Tomato___Target_Spot,0.0,0,0.33333333333333337,1
+Tomato___Bacterial_spot,Tomato___Tomato_Yellow_Leaf_Curl_Virus,True,3.668400822703404,0.21420611425154243,Tomato___Bacterial_spot || Tomato___Tomato_Yellow_Leaf_Curl_Virus,50.0,319,0.7815519388500022,8
+Tomato___Early_blight,Tomato___Tomato_Yellow_Leaf_Curl_Virus,True,3.809978710116727,0.20790112810618497,Tomato___Early_blight || Tomato___Tomato_Yellow_Leaf_Curl_Virus,50.0,150,0.0,0
+Tomato___Spider_mites Two-spotted_spider_mite,Tomato___Tomato_Yellow_Leaf_Curl_Virus,True,4.020834288350958,0.1991700865969906,Tomato___Spider_mites Two-spotted_spider_mite || Tomato___Tomato_Yellow_Leaf_Curl_Virus,50.0,251,0.12453300124533001,2
+Tomato___Septoria_leaf_spot,Tomato___Spider_mites Two-spotted_spider_mite,True,4.04035968899149,0.19839853933124502,Tomato___Septoria_leaf_spot || Tomato___Spider_mites Two-spotted_spider_mite,0.0,0,0.0,0
+Tomato___Early_blight,Tomato___Tomato_mosaic_virus,True,4.10362168776531,0.19593928805445288,Tomato___Early_blight || Tomato___Tomato_mosaic_virus,0.0,0,0.33333333333333337,1
+Tomato___Early_blight,Tomato___healthy,True,4.150446326707868,0.19415793051069294,Tomato___Early_blight || Tomato___healthy,0.0,0,0.0,0
+Tomato___Septoria_leaf_spot,Tomato___Target_Spot,True,4.154033323466501,0.1940228045183495,Tomato___Septoria_leaf_spot || Tomato___Target_Spot,0.0,0,0.0,0
+Tomato___Septoria_leaf_spot,Tomato___Tomato_mosaic_virus,True,4.302997604364705,0.18857259131645396,Tomato___Septoria_leaf_spot || Tomato___Tomato_mosaic_virus,0.0,0,1.7857142857142856,2
+Tomato___Bacterial_spot,Tomato___Tomato_mosaic_virus,True,4.303961568609652,0.1885383193419582,Tomato___Bacterial_spot || Tomato___Tomato_mosaic_virus,0.0,0,0.0,0
+Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato___Tomato_mosaic_virus,True,4.388495439544844,0.185580559772074,Tomato___Tomato_Yellow_Leaf_Curl_Virus || Tomato___Tomato_mosaic_virus,50.0,56,0.0,0
+Tomato___Bacterial_spot,Tomato___healthy,True,4.6247371574000775,0.17778608529011336,Tomato___Bacterial_spot || Tomato___healthy,0.0,0,0.0,0
+Tomato___Leaf_Mold,Tomato___Septoria_leaf_spot,True,4.814633917558619,0.17197987253853952,Tomato___Leaf_Mold || Tomato___Septoria_leaf_spot,0.0,0,0.18796992481203006,1
+Tomato___Bacterial_spot,Tomato___Spider_mites Two-spotted_spider_mite,True,4.858856942866377,0.17068175750861767,Tomato___Bacterial_spot || Tomato___Spider_mites Two-spotted_spider_mite,0.0,0,0.0,0
+Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato___healthy,True,5.0051559781767905,0.16652356801956164,Tomato___Tomato_Yellow_Leaf_Curl_Virus || Tomato___healthy,50.0,238,0.0,0
+Tomato___Target_Spot,Tomato___Tomato_Yellow_Leaf_Curl_Virus,True,5.032982980583307,0.16575548169428347,Tomato___Target_Spot || Tomato___Tomato_Yellow_Leaf_Curl_Virus,50.0,211,0.0,0
+Tomato___Septoria_leaf_spot,Tomato___healthy,True,5.141390569782924,0.16282957233175066,Tomato___Septoria_leaf_spot || Tomato___healthy,0.0,0,0.0,0
+Tomato___Septoria_leaf_spot,Tomato___Tomato_Yellow_Leaf_Curl_Virus,True,5.373571046591437,0.15689791369546222,Tomato___Septoria_leaf_spot || Tomato___Tomato_Yellow_Leaf_Curl_Virus,50.0,266,0.0,0
+Tomato___Late_blight,Tomato___Septoria_leaf_spot,True,5.614408259859524,0.15118510389941334,Tomato___Late_blight || Tomato___Septoria_leaf_spot,0.0,0,0.3634085213032582,2
+Tomato___Bacterial_spot,Tomato___Target_Spot,True,5.683434890628846,0.1496236615399884,Tomato___Bacterial_spot || Tomato___Target_Spot,0.0,0,0.1567398119122257,1
+Tomato___Early_blight,Tomato___Septoria_leaf_spot,True,6.514003266377621,0.13308485031868822,Tomato___Early_blight || Tomato___Septoria_leaf_spot,0.0,0,0.33333333333333337,1
+Tomato___Bacterial_spot,Tomato___Septoria_leaf_spot,True,7.444002435843299,0.11842725148386701,Tomato___Bacterial_spot || Tomato___Septoria_leaf_spot,0.0,0,0.18796992481203006,1

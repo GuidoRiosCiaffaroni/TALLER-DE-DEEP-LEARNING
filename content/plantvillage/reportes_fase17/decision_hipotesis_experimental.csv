@@ -1,0 +1,14 @@
+Indicador,Resultado
+Decisión,Hipótesis experimental respaldada
+Accuracy MLP,0.3067597354886113
+Accuracy CNN,0.9801616458486407
+Diferencia Accuracy,0.6734019103600295
+Diferencia Balanced Accuracy,0.8602490111762893
+Diferencia F1 Macro,0.9068909264767191
+Reducción relativa del error,0.9713831478537361
+n10 MLP correcta CNN incorrecta,7
+n01 MLP incorrecta CNN correcta,1840
+Estadístico McNemar,1817.1218191662156
+Valor p exacto,0.0
+Clases ganadas por CNN,9
+Clases ganadas por MLP,1

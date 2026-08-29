@@ -1,0 +1,7 @@
+Dimensión,Criterio futuro,Referencia actual,Requisito del proyecto actual
+Rendimiento interno,F1 Macro superior a CNN A,F1 Macro = 82.35%,No
+Balance entre clases,Balanced Accuracy superior a CNN A,Balanced Accuracy = 81.64%,No
+Robustez externa,Brecha de dominio controlada,Sin resultado externo,No
+Interpretabilidad,Atención sobre regiones foliares relevantes,Sin Grad-CAM,No
+Costo computacional,Mejora proporcional al costo adicional,"424,042 parámetros",No
+Estabilidad,Baja variabilidad entre semillas,Una ejecución principal,No

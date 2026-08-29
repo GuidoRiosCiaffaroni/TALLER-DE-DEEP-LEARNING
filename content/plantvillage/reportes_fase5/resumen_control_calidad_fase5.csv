@@ -1,0 +1,21 @@
+Control,Resultado
+Imágenes auditadas originalmente,"18,160"
+Imágenes válidas,"18,160"
+Imágenes problemáticas,0
+Archivos vacíos,0
+Imágenes corruptas/ilegibles,0
+Truncadas identificadas explícitamente,0
+Dimensiones inválidas,0
+Dataset limpio,"18,146"
+Homogeneidad dimensional,100.00%
+Resolución predominante,256 × 256
+Canales predominantes,3
+Modo de color predominante,RGB
+Homogeneidad de color,100.00%
+Formato real predominante,JPEG
+Homogeneidad de formato,100.00%
+Grupos duplicados históricos,14
+Copias redundantes apartadas,14
+Porcentaje global de duplicados,0.08%
+Duplicados exactos restantes,0
+Conflictos entre clases,0

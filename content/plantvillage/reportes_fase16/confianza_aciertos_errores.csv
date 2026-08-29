@@ -1,0 +1,5 @@
+Modelo,Resultado,Confianza media
+MLP,Correctas,0.31467172503471375
+MLP,Incorrectas,0.2939178943634033
+CNN,Correctas,0.991391658782959
+CNN,Incorrectas,0.8240376710891724

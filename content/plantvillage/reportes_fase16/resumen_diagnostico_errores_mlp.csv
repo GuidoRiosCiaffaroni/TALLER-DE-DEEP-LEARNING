@@ -1,0 +1,4 @@
+Diagnóstico,N,Porcentaje
+Posible debilidad estructural MLP (CNN resuelve la misma imagen),1801,95.44250132485426
+Error razonable: baja separación probabilística,45,2.384737678855326
+Error razonable: condición visual atípica,41,2.172760996290408

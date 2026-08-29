@@ -1,0 +1,3 @@
+Modelo,Parámetros totales,Parámetros entrenables,Memoria pesos float32 (MB),Referencia entrenamiento Adam (MB),Épocas ejecutadas,Mejor época,Tiempo entrenamiento (s),Brecha Accuracy Train-Val,Accuracy Test,Balanced Accuracy Test,F1 Macro Test,Error Rate Test,F1 Macro por millón de parámetros,F1 Macro por segundo de entrenamiento
+MLP,6300490,6300490,24.034461975097656,96.13784790039062,,,,,0.3067597354886113,0.11122807017543859,0.06616694407291374,0.6932402645113886,0.010501872723060229,
+CNN,424042,423082,1.6175918579101562,6.470367431640625,,,,,0.9801616458486407,0.9714770813517278,0.9730578705496328,0.01983835415135926,2.2947205006806706,

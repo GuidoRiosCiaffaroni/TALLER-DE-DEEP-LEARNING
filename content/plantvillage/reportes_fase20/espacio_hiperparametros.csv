@@ -1,0 +1,8 @@
+Hiperparámetro,Valores futuros,Cantidad de opciones
+learning_rate,"[0.0001, 0.0003, 0.001]",3
+batch_size,"[16, 32, 64]",3
+dropout,"[0.1, 0.2, 0.3, 0.4]",4
+filtros_iniciales,"[16, 32, 64]",3
+kernel_size,"[3, 5]",2
+regularizacion_l2,"[0.0, 1e-05, 0.0001]",3
+augmentation,"['Base', 'Ampliado']",2

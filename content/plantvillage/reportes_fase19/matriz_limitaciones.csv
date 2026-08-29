@@ -1,0 +1,11 @@
+Limitación,Evidencia en el proyecto,Consecuencia,Nivel de impacto,Evidencia futura necesaria
+Condiciones potencialmente controladas,PlantVillage presenta imágenes relativamente homogéneas y centradas,El modelo podría aprender regularidades del entorno de captura,Alto,Dataset con diversidad de captura
+Diferencia con imágenes de terreno,No se evaluaron imágenes agrícolas externas con fondos naturales,El rendimiento de campo puede ser menor que el Test interno,Alto,Validación con imágenes reales de campo
+Desbalance de clases,Razón mayoritaria/minoritaria = 14.36,Las métricas globales pueden favorecer clases más frecuentes,Medio-Alto,"Ponderación, muestreo y más ejemplos minoritarios"
+Resolución reducida,Reducción de 256×256 a 128×128; 75% menos píxeles,Pueden perderse lesiones pequeñas y texturas finas,Medio,Comparación 128×128 frente a resoluciones mayores
+Exploración limitada de hiperparámetros,Se compararon configuraciones acotadas; no se realizó una búsqueda masiva,No se demuestra que los hiperparámetros sean óptimos,Medio,Búsqueda sistemática y múltiples semillas
+Ausencia de validación externa,"Train, Validation y Test proceden de PlantVillage",No se cuantifica la generalización entre dominios,Alto,Dataset externo completamente independiente
+Recursos limitados de Google Colab,"Resolución, batch y épocas fueron acotados para ejecución en Colab","No se probaron modelos, resoluciones o búsquedas de mayor costo",Medio,Hardware estable y entrenamiento ampliado
+Una semilla principal,Reproducibilidad configurada principalmente con SEED=42,No se estima la variabilidad entre ejecuciones,Medio,Experimentos repetidos con distintas semillas
+Interpretabilidad visual limitada,No se aplicaron Grad-CAM ni métodos de oclusión,No se confirma qué regiones utiliza la CNN,Medio,Grad-CAM y análisis de oclusión
+Ausencia de validación para uso diagnóstico,No existe evaluación prospectiva por especialistas,El modelo no debe utilizarse como diagnóstico autónomo,Alto,Validación agronómica prospectiva

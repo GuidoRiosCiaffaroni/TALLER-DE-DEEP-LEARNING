@@ -1,0 +1,46 @@
+Modelo,Clase A,Clase B,A -> B,B -> A,Errores bidireccionales,N real A,N real B,A -> B (%),B -> A (%),Score simétrico (%),Bidireccionalidad,Ambas direcciones,Dirección dominante
+CNN,Tomato___Early_blight,Tomato___Late_blight,18,3,21,150,285,12.0,1.0526315789473684,6.526315789473684,0.08771929824561403,True,Tomato___Early_blight → Tomato___Late_blight
+CNN,Tomato___Septoria_leaf_spot,Tomato___Tomato_mosaic_virus,0,2,2,266,56,0.0,3.571428571428571,1.7857142857142856,0.0,False,Tomato___Tomato_mosaic_virus → Tomato___Septoria_leaf_spot
+CNN,Tomato___Spider_mites Two-spotted_spider_mite,Tomato___Target_Spot,2,2,4,251,211,0.796812749003984,0.9478672985781991,0.8723400237910915,0.8406374501992031,True,Tomato___Target_Spot → Tomato___Spider_mites Two-spotted_spider_mite
+CNN,Tomato___Bacterial_spot,Tomato___Tomato_Yellow_Leaf_Curl_Virus,3,5,8,319,803,0.9404388714733543,0.62266500622665,0.7815519388500022,0.6621004566210045,True,Tomato___Bacterial_spot → Tomato___Tomato_Yellow_Leaf_Curl_Virus
+CNN,Tomato___Late_blight,Tomato___Leaf_Mold,0,2,2,285,143,0.0,1.3986013986013985,0.6993006993006993,0.0,False,Tomato___Leaf_Mold → Tomato___Late_blight
+CNN,Tomato___Target_Spot,Tomato___healthy,2,0,2,211,238,0.9478672985781991,0.0,0.47393364928909953,0.0,False,Tomato___Target_Spot → Tomato___healthy
+CNN,Tomato___Late_blight,Tomato___Septoria_leaf_spot,1,1,2,285,266,0.3508771929824561,0.37593984962406013,0.3634085213032582,0.9333333333333333,True,Tomato___Septoria_leaf_spot → Tomato___Late_blight
+CNN,Tomato___Bacterial_spot,Tomato___Early_blight,0,1,1,319,150,0.0,0.6666666666666667,0.33333333333333337,0.0,False,Tomato___Early_blight → Tomato___Bacterial_spot
+CNN,Tomato___Early_blight,Tomato___Septoria_leaf_spot,1,0,1,150,266,0.6666666666666667,0.0,0.33333333333333337,0.0,False,Tomato___Early_blight → Tomato___Septoria_leaf_spot
+CNN,Tomato___Early_blight,Tomato___Target_Spot,1,0,1,150,211,0.6666666666666667,0.0,0.33333333333333337,0.0,False,Tomato___Early_blight → Tomato___Target_Spot
+CNN,Tomato___Early_blight,Tomato___Tomato_mosaic_virus,1,0,1,150,56,0.6666666666666667,0.0,0.33333333333333337,0.0,False,Tomato___Early_blight → Tomato___Tomato_mosaic_virus
+CNN,Tomato___Target_Spot,Tomato___Tomato_mosaic_virus,1,0,1,211,56,0.47393364928909953,0.0,0.23696682464454977,0.0,False,Tomato___Target_Spot → Tomato___Tomato_mosaic_virus
+CNN,Tomato___Spider_mites Two-spotted_spider_mite,Tomato___Tomato_mosaic_virus,1,0,1,251,56,0.398406374501992,0.0,0.199203187250996,0.0,False,Tomato___Spider_mites Two-spotted_spider_mite → Tomato___Tomato_mosaic_virus
+CNN,Tomato___Bacterial_spot,Tomato___Septoria_leaf_spot,0,1,1,319,266,0.0,0.37593984962406013,0.18796992481203006,0.0,False,Tomato___Septoria_leaf_spot → Tomato___Bacterial_spot
+CNN,Tomato___Leaf_Mold,Tomato___Septoria_leaf_spot,0,1,1,143,266,0.0,0.37593984962406013,0.18796992481203006,0.0,False,Tomato___Septoria_leaf_spot → Tomato___Leaf_Mold
+CNN,Tomato___Late_blight,Tomato___healthy,1,0,1,285,238,0.3508771929824561,0.0,0.17543859649122806,0.0,False,Tomato___Late_blight → Tomato___healthy
+CNN,Tomato___Bacterial_spot,Tomato___Late_blight,1,0,1,319,285,0.3134796238244514,0.0,0.1567398119122257,0.0,False,Tomato___Bacterial_spot → Tomato___Late_blight
+CNN,Tomato___Bacterial_spot,Tomato___Target_Spot,1,0,1,319,211,0.3134796238244514,0.0,0.1567398119122257,0.0,False,Tomato___Bacterial_spot → Tomato___Target_Spot
+CNN,Tomato___Spider_mites Two-spotted_spider_mite,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0,2,2,251,803,0.0,0.24906600249066002,0.12453300124533001,0.0,False,Tomato___Tomato_Yellow_Leaf_Curl_Virus → Tomato___Spider_mites Two-spotted_spider_mite
+CNN,Tomato___Bacterial_spot,Tomato___Leaf_Mold,0,0,0,319,143,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Bacterial_spot,Tomato___Spider_mites Two-spotted_spider_mite,0,0,0,319,251,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Bacterial_spot,Tomato___Tomato_mosaic_virus,0,0,0,319,56,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Bacterial_spot,Tomato___healthy,0,0,0,319,238,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Early_blight,Tomato___Leaf_Mold,0,0,0,150,143,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Early_blight,Tomato___Spider_mites Two-spotted_spider_mite,0,0,0,150,251,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Early_blight,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0,0,0,150,803,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Early_blight,Tomato___healthy,0,0,0,150,238,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Late_blight,Tomato___Spider_mites Two-spotted_spider_mite,0,0,0,285,251,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Late_blight,Tomato___Target_Spot,0,0,0,285,211,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Late_blight,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0,0,0,285,803,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Late_blight,Tomato___Tomato_mosaic_virus,0,0,0,285,56,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Leaf_Mold,Tomato___Spider_mites Two-spotted_spider_mite,0,0,0,143,251,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Leaf_Mold,Tomato___Target_Spot,0,0,0,143,211,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Leaf_Mold,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0,0,0,143,803,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Leaf_Mold,Tomato___Tomato_mosaic_virus,0,0,0,143,56,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Leaf_Mold,Tomato___healthy,0,0,0,143,238,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Septoria_leaf_spot,Tomato___Spider_mites Two-spotted_spider_mite,0,0,0,266,251,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Septoria_leaf_spot,Tomato___Target_Spot,0,0,0,266,211,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Septoria_leaf_spot,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0,0,0,266,803,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Septoria_leaf_spot,Tomato___healthy,0,0,0,266,238,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Spider_mites Two-spotted_spider_mite,Tomato___healthy,0,0,0,251,238,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Target_Spot,Tomato___Tomato_Yellow_Leaf_Curl_Virus,0,0,0,211,803,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato___Tomato_mosaic_virus,0,0,0,803,56,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Tomato_Yellow_Leaf_Curl_Virus,Tomato___healthy,0,0,0,803,238,0.0,0.0,0.0,0.0,False,Equilibrada
+CNN,Tomato___Tomato_mosaic_virus,Tomato___healthy,0,0,0,56,238,0.0,0.0,0.0,0.0,False,Equilibrada

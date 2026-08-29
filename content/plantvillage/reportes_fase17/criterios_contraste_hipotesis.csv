@@ -1,0 +1,7 @@
+Criterio,Cumplimiento
+Accuracy CNN > MLP,Sí
+Balanced Accuracy CNN > MLP,Sí
+F1 Macro CNN > MLP,Sí
+CNN resuelve más casos discordantes,Sí
+CNN gana en la mayoría de las clases,Sí
+Diferencia pareada estadísticamente significativa,Sí

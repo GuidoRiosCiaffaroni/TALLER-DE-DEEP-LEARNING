@@ -1,0 +1,8 @@
+Afirmación,Estado,Justificación
+CNN A supera a la MLP evaluada,Respaldada,"Supera Accuracy, Balanced Accuracy y F1 Macro"
+CNN A generaliza al Test interno,Respaldada,Test estuvo aislado hasta la evaluación final
+CNN A funcionará igual en terreno,No demostrado,No existe validación con imágenes de campo
+CNN A es la mejor arquitectura posible,No demostrado,La exploración de arquitecturas fue acotada
+Los resultados son independientes de la semilla,No demostrado,Se utilizó principalmente SEED=42
+La CNN utiliza siempre las lesiones correctas,No demostrado,No se aplicaron métodos visuales de explicación
+La CNN puede utilizarse como diagnóstico autónomo,No respaldada,Es un prototipo académico sin validación prospectiva

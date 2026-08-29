@@ -1,0 +1,10 @@
+Propiedad,MLP,CNN A
+Capas Conv2D,0,4
+Capas de pooling,0,5
+Capas Dense,3,2
+Capas Flatten,1,0
+Capas Dropout,1,1
+Conserva estructura espacial inicial,No,Sí
+Utiliza filtros locales,No,Sí
+Comparte pesos espacialmente,No,Sí
+Construye jerarquía espacial,No explícitamente,Sí

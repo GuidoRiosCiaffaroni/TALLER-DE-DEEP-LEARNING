@@ -1,0 +1,14 @@
+Indicador,Resultado
+Imágenes originales auditadas,18160
+Duplicados apartados,14
+Imágenes limpias,18146
+Número de clases,10
+Razón de desbalance,14.361930294906166
+Resolución original,256 × 256
+Resolución utilizada,128 × 128
+Píxeles espaciales conservados,0.25
+Semilla principal,42
+Datasets externos evaluados,0
+Accuracy interna CNN,0.9801616458486407
+Balanced Accuracy interna CNN,0.9714770813517278
+F1 Macro interno CNN,0.9730578705496328

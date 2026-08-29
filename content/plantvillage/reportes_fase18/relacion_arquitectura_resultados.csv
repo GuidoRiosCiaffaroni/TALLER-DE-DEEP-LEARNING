@@ -1,0 +1,9 @@
+Criterio,MLP,CNN A
+Representación de entrada,Vector de 49.152 valores,Tensor 128 × 128 × 3
+Localidad,No incorporada explícitamente,Filtros locales
+Pesos compartidos,No,Sí
+Jerarquía espacial,No explícita,Sí
+Parámetros,6300490,424042
+Accuracy,0.3067597354886113,0.9801616458486407
+Balanced Accuracy,0.11122807017543859,0.9714770813517278
+F1 Macro,0.06616694407291374,0.9730578705496328

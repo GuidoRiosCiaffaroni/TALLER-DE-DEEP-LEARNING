@@ -1,0 +1,11 @@
+Clase,MLP,CNN
+Tomato___Bacterial_spot,0.0,0.98125
+Tomato___Early_blight,0.0,0.9110320284697508
+Tomato___Late_blight,0.20189274447949526,0.9540034071550255
+Tomato___Leaf_Mold,0.0,0.9894736842105263
+Tomato___Septoria_leaf_spot,0.0,0.9868667917448405
+Tomato___Spider_mites Two-spotted_spider_mite,0.0,0.9860834990059643
+Tomato___Target_Spot,0.0,0.9786223277909739
+Tomato___Tomato_Yellow_Leaf_Curl_Virus,0.4597766962496421,0.9937578027465668
+Tomato___Tomato_mosaic_virus,0.0,0.9557522123893806
+Tomato___healthy,0.0,0.9937369519832986

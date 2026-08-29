@@ -1,0 +1,8 @@
+Capa,Forma de salida,Parámetros,Entrenable
+Input,"(None, 128, 128, 3)",0,No
+Flatten,"(None, 49.152)",0,No
+Dense 128,"(None, 128)",6291584,Sí
+Dropout 0.30,"(None, 128)",0,No
+Dense 64,"(None, 64)",8256,Sí
+Dense 10 Softmax,"(None, 10)",650,Sí
+TOTAL,-,6300490,-

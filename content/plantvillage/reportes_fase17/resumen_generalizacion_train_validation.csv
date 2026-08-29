@@ -1,0 +1,3 @@
+Modelo,Épocas ejecutadas,Mejor época,Train Accuracy mejor época,Validation Accuracy mejor época,Brecha Accuracy,Train Loss mejor época,Validation Loss mejor época,Brecha Loss
+MLP,,,,,,,,
+CNN,,,,,,,,

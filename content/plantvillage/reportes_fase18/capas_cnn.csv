@@ -1,0 +1,22 @@
+Modelo,Índice,Capa,Tipo,Forma de salida,Filtros,Kernel,Pooling,Stride,Parámetros,Participación
+CNN A,0,imagen_entrada,InputLayer,"(None, 128, 128, 3)",,No aplica,No aplica,No aplica,0,0.0
+CNN A,1,conv_bloque_1,Conv2D,"(None, 128, 128, 32)",32.0,"(3, 3)",No aplica,"(1, 1)",864,0.002037534017856722
+CNN A,2,batch_norm_1,BatchNormalization,"(None, 128, 128, 32)",,No aplica,No aplica,No aplica,128,0.00030185689153432914
+CNN A,3,relu_1,Activation,"(None, 128, 128, 32)",,No aplica,No aplica,No aplica,0,0.0
+CNN A,4,max_pool_1,MaxPooling2D,"(None, 64, 64, 32)",,No aplica,"(2, 2)","(2, 2)",0,0.0
+CNN A,5,conv_bloque_2,Conv2D,"(None, 64, 64, 64)",64.0,"(3, 3)",No aplica,"(1, 1)",18432,0.043467392380943395
+CNN A,6,batch_norm_2,BatchNormalization,"(None, 64, 64, 64)",,No aplica,No aplica,No aplica,256,0.0006037137830686583
+CNN A,7,relu_2,Activation,"(None, 64, 64, 64)",,No aplica,No aplica,No aplica,0,0.0
+CNN A,8,max_pool_2,MaxPooling2D,"(None, 32, 32, 64)",,No aplica,"(2, 2)","(2, 2)",0,0.0
+CNN A,9,conv_bloque_3,Conv2D,"(None, 32, 32, 128)",128.0,"(3, 3)",No aplica,"(1, 1)",73728,0.17386956952377358
+CNN A,10,batch_norm_3,BatchNormalization,"(None, 32, 32, 128)",,No aplica,No aplica,No aplica,512,0.0012074275661373166
+CNN A,11,relu_3,Activation,"(None, 32, 32, 128)",,No aplica,No aplica,No aplica,0,0.0
+CNN A,12,max_pool_3,MaxPooling2D,"(None, 16, 16, 128)",,No aplica,"(2, 2)","(2, 2)",0,0.0
+CNN A,13,conv_bloque_4,Conv2D,"(None, 16, 16, 256)",256.0,"(3, 3)",No aplica,"(1, 1)",294912,0.6954782780950943
+CNN A,14,batch_norm_4,BatchNormalization,"(None, 16, 16, 256)",,No aplica,No aplica,No aplica,1024,0.002414855132274633
+CNN A,15,relu_4,Activation,"(None, 16, 16, 256)",,No aplica,No aplica,No aplica,0,0.0
+CNN A,16,max_pool_4,MaxPooling2D,"(None, 8, 8, 256)",,No aplica,"(2, 2)","(2, 2)",0,0.0
+CNN A,17,global_average_pooling,GlobalAveragePooling2D,"(None, 256)",,No aplica,No aplica,No aplica,0,0.0
+CNN A,18,dense_caracteristicas,Dense,"(None, 128)",,No aplica,No aplica,No aplica,32896,0.0775772211243226
+CNN A,19,dropout_cnn,Dropout,"(None, 128)",,No aplica,No aplica,No aplica,0,0.0
+CNN A,20,salida_cnn,Dense,"(None, 10)",,No aplica,No aplica,No aplica,1290,0.003042151484994411

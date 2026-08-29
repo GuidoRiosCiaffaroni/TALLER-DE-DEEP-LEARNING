@@ -1,0 +1,6 @@
+Modelo,Posición,Nombre de capa,Tipo de capa,Parámetros,Participación
+MLP,0,flatten,Flatten,0,0.0
+MLP,1,dense_128,Dense,6291584,0.9985864591484155
+MLP,2,dropout_030,Dropout,0,0.0
+MLP,3,dense_64,Dense,8256,0.00131037427247722
+MLP,4,salida_softmax,Dense,650,0.00010316657910733927

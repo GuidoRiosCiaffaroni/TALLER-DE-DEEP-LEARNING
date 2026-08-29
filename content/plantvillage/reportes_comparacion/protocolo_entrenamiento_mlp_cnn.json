@@ -1,0 +1,23 @@
+{
+    "seed": 42,
+    "learning_rate": 0.001,
+    "beta_1": 0.9,
+    "beta_2": 0.999,
+    "epsilon": 1e-07,
+    "batch_size": 32,
+    "max_epochs": 50,
+    "steps_per_epoch": 397,
+    "max_optimizer_steps": 19850,
+    "loss": "SparseCategoricalCrossentropy",
+    "from_logits": false,
+    "monitor": "val_loss",
+    "monitor_mode": "min",
+    "early_stopping_patience": 7,
+    "early_stopping_min_delta": 0.0001,
+    "restore_best_weights": true,
+    "metric_during_fit": "accuracy",
+    "primary_metric_after_fit": "F1 Macro",
+    "same_train_dataset": true,
+    "same_validation_dataset": true,
+    "test_reserved": true
+}

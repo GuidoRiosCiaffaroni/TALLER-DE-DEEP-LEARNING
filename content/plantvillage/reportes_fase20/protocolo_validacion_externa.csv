@@ -1,0 +1,8 @@
+Etapa,Actividad,Control metodológico,Uso de Test interno
+1,Conseguir dataset externo,Fuente independiente de PlantVillage,Ninguno
+2,Verificar etiquetas,Revisión por especialista o fuente confiable,Ninguno
+3,Auditar integridad,"Corruptos, duplicados y clases",Ninguno
+4,Aplicar preprocesamiento determinista,Sin data augmentation aleatorio,Ninguno
+5,Evaluar sin reentrenar,Modelo completamente congelado,Ninguno
+6,Calcular métricas,"Accuracy, Balanced Accuracy y F1 Macro",Solo referencia ya calculada
+7,Comparar dominio interno y externo,Calcular brecha de dominio,Solo comparación final

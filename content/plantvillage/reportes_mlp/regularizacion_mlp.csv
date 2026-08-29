@@ -1,0 +1,7 @@
+Técnica,Configuración,Aplicación
+Normalización de entrada,"Píxeles en [0, 1]","Train, validation y test"
+Data augmentation,Flip + Rotation + Zoom,Solo train
+Dropout,rate=0.3,Solo durante entrenamiento
+Early stopping,patience=7,Monitorea validation
+Model checkpoint,Mejor val_loss,Guarda mejor época
+Regularización L2,lambda=0.0,No aplicada en configuración base

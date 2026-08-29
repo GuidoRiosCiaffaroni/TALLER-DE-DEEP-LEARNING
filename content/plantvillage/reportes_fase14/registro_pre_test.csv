@@ -1,0 +1,9 @@
+Elemento,Decisión
+Modelo A,MLP
+Modelo B,CNN
+Configuración CNN final,CNN A
+Selección realizada con,Train + Validation
+Observaciones Test,2722
+Número de clases,10
+Test usado para seleccionar,NO
+Ajuste posterior con Test,NO

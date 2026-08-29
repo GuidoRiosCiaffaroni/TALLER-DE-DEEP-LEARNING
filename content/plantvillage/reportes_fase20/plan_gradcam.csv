@@ -1,0 +1,8 @@
+Grupo de imágenes,Objetivo,Cantidad sugerida,Estado
+CNN correcta con alta confianza,Confirmar atención sobre lesiones,10,Trabajo futuro
+CNN correcta con baja confianza,Examinar ambigüedad visual,10,Trabajo futuro
+CNN incorrecta con alta confianza,Detectar posible evidencia espuria,10,Trabajo futuro
+CNN incorrecta con baja confianza,Analizar incertidumbre razonable,10,Trabajo futuro
+Ambos modelos incorrectos,Identificar dificultad compartida,10,Trabajo futuro
+Clase minoritaria,Revisar desempeño con poco soporte,10,Trabajo futuro
+Clase con menor F1,Investigar debilidad principal,10,Trabajo futuro

@@ -1,0 +1,8 @@
+Criterio,Cumplimiento
+CNN utiliza convoluciones,Sí
+CNN utiliza pooling,Sí
+MLP utiliza Flatten,Sí
+CNN utiliza menos parámetros,Sí
+CNN obtiene mayor Accuracy,Sí
+CNN obtiene mayor Balanced Accuracy,Sí
+CNN obtiene mayor F1 Macro,Sí

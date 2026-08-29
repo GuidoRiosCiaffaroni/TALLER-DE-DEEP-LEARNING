@@ -1,0 +1,3 @@
+Modelo,Parámetros totales,Parámetros entrenables,Parámetros no entrenables,Capa con más parámetros,Máximo por capa,Concentración máxima
+MLP,6300490,6300490,0,dense_128,6291584,0.9985864591484155
+CNN,424042,423082,960,conv_bloque_4,294912,0.6954782780950943

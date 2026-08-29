@@ -1,0 +1,11 @@
+Modelo,Clase real,N real,Correctas,Errores,Recall,Tasa de error,Tasa de error (%)
+MLP,Tomato___Bacterial_spot,319,0,319,0.0,1.0,100.0
+MLP,Tomato___Early_blight,150,0,150,0.0,1.0,100.0
+MLP,Tomato___Late_blight,285,32,253,0.11228070175438597,0.887719298245614,88.7719298245614
+MLP,Tomato___Leaf_Mold,143,0,143,0.0,1.0,100.0
+MLP,Tomato___Septoria_leaf_spot,266,0,266,0.0,1.0,100.0
+MLP,Tomato___Spider_mites Two-spotted_spider_mite,251,0,251,0.0,1.0,100.0
+MLP,Tomato___Target_Spot,211,0,211,0.0,1.0,100.0
+MLP,Tomato___Tomato_Yellow_Leaf_Curl_Virus,803,803,0,1.0,0.0,0.0
+MLP,Tomato___Tomato_mosaic_virus,56,0,56,0.0,1.0,100.0
+MLP,Tomato___healthy,238,0,238,0.0,1.0,100.0
